@@ -1,0 +1,61 @@
+.contact-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    background-color: #cc7e22;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.contact-text h1 {
+    font-family: Times New Roman;
+    font-size: 2rem;
+}
+
+.contact-text p {
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.contact-links img {
+    width: 30%;
+    height: auto;
+}
+
+.contact-links {
+    display: flex;
+    padding-left: 20px;
+}
+
+
+
+@media(max-width:500px){
+    .footer {
+        flex-direction: column;
+    }
+}
+
+@media(min-width:900px){
+    .contact-text h1 {
+        font-size: 3rem;
+    }
+    .contact-text p {
+        font-size: 2rem;
+    }
+    .contact-links img {
+        width: 40%;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
