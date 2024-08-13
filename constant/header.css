@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /*background-color: red;*/
+}
+
+.header {
+    background: orange;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+   padding: 0; 
+   background: none;
+   border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-name img {
+    width: 20%;
+    height: 100%;
+}
+
+.logo-name {
+    display: flex;
+}
+
+.logo-name h1 {
+    font-size: 2.5rem;
+    font-family: cursive;
+}
+
+.logo-name p {
+    font-family: monospace;
+    font-size: 1.05rem;
+}
+
+.logo-name div {
+    align-self: center;
+   
+}
+
+.search-subscribe img {
+    width: 30%;
+    height: 80%;
+}
+
+.search-subscribe {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.search-subscribe p {
+    font-size: 0.8rem;
+    align-self: center;
+}
+
+@media(max-width:500px){
+    .search-subscribe {
+        flex-direction: column;
+    }
+    .search-subscribe p {
+        align-self: center;
+    }
+    .search-subscribe img {
+        align-self: center;
+    }
+    .logo-name h1 {
+        font-size: 1.5rem;
+    }
+    .logo-name p {
+        font-size: 0.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
