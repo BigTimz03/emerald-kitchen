@@ -81,6 +81,11 @@ a {
     }
 }
 
+@media(min-width:800px){
+    .search-subscribe p{
+        font-size: 1.8rem;
+    }
+}
 
 
 
