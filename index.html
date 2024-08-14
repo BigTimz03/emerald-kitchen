@@ -2,120 +2,256 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Page title</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./logo/burger-logo.png" type="image/x-icon">
+    <!-- CSS-Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google-Font! -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <!-- Font-Awesome! -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Foods and hygiene</title>
 </head>
-<nav>
-<header>
-    <div class="header">
-    <div class="logo-name"> <!-- start of logo-name -->
-        <img src="constant/assets/logo.jpg" alt="logo of the page">
-        <div>
-            <h1>Food and Hygiene</h1>
-            <p><i>...helping health and stomach correlate...</i></p>
-        </div>
-    </div><!-- ending of logo-name-->
-    
-    <div class="search-subscribe">
-        <img src="constant/assets/search.png" alt="">
-        <p><a href="">Subscribe</a></p>
-    </div>
-    </div>
-</header>
-
-<!-- the body starts here -->
 <body>
-    <div class="project-cards"> <!-- div holding the cards starts-->
-    
-    <!-- start of 1st card -->
-    <div class="card">
-        <img src="constant/assets/pounded-yam.jpeg" alt="">
-        <a href=""><h1>Pounded yam</h1>
-        <p>This is a meal commonly prepared by the yorub...</p></a>
+    <!-- //====================//Nav-bar!//=====================//-->
+   <header>
+        <div class="nav-bar flex container">
+    <a href="#" class="logo">
+        <img src="constant/assets/logo.jpg" alt="logoImg" />
+    </a>
+    <nav id="nav-links">
+     <ul class="menu">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#Service">Teams</a></li>
+        <li><a href="#Contact">Contact</a></li>
+     </ul>
+    </nav>
+    <div class="toggle-links" id="nav-toggle">
+        <i class="fa-solid fa-bars"></i>
+        
     </div>
-    <!-- end of 1st card -->
-    
-    <!-- start of 2nd card -->
-     <div class="card">
-        <img src="constant/assets/pounded-yam.jpeg" alt="">
-        <a href=""><h1>Pounded yam</h1>
-        <p>This is a meal commonly prepared by the yorub...</p></a>
-    </div>
-    <!-- end of 2nd card -->
-    
-     <!-- start of 3rd card -->
-     <div class="card">
-        <img src="constant/assets/pounded-yam.jpeg" alt="">
-        <a href=""><h1>Pounded yam</h1>
-        <p>This is a meal commonly prepared by the yorub...</p></a>
-    </div>
-    <!-- end of 3rd card -->
-    
-     <!-- start of 4th card -->
-     <div class="card">
-        <img src="constant/assets/pounded-yam.jpeg" alt="">
-        <a href=""><h1>Pounded yam</h1>
-        <p>This is a meal commonly prepared by the yorub...</p></a>
-    </div>
-    <!-- end of 4th card -->
-    
-     <!-- start of 5th card -->
-     <div class="card">
-        <img src="constant/assets/pounded-yam.jpeg" alt="">
-        <a href=""><h1>Pounded yam</h1>
-        <p>This is a meal commonly prepared by the yorub...</p></a>
-    </div>
-    <!-- end of 5th card -->
-    
-     <!-- start of 6th card -->
-     <div class="card">
-        <img src="constant/assets/pounded-yam.jpeg" alt="">
-        <a href=""><h1>Pounded yam</h1>
-        <p>This is a meal commonly prepared by the yorub...</p></a>
-    </div>
-    <!-- end of 6th card -->
-    
-    </div> <!-- div holding the cards ends-->
-    
-    <div class="about"><!-- div on about page starts here -->
-        <div>
-            <img src="constant/assets/solomon.jpg" alt="image of authors">
-            <h1>Thompson Solomon</h1>
-            <p>"A MERN stack developer, specialize more on front end with react"</p>
         </div>
-        <div>
-            <img src="constant/assets/joy.jpg" alt="image of authors">
-            <h1>Owoicho Joyful</h1>
-            <p>"A Front-end Developer proficient in HTML and CSS"</p>
-        </div>
-        <div>
-            <img src="constant/assets/timileyin.jpg" alt="image of authors">
-            <h1>Adeniyi Timileyin</h1>
-            <p>"A Front-End Developer proficient in HTML and CSS"</p>
-        </div>
-    </div> <!-- about page div ends here-->
-</body>
-<!-- the body ends here -->
+   </header>
+   <!-- //====================//Hero-Section//=====================//-->
+   <section class="hero-section container1 flex" id="Home">
+    <div class="hero-left">
+     <h1>Food and Hygiene</h1>
+     <h3>Helping your health<br>and stomach correllate</h3>
+     <a href="#Menu" class="btn">Today's Menu</a>
+    </div>
+    <div class="hero-right">
+     <img src="constant/assets/poundedyam.jpeg" alt="Burger-img">
+    </div>
+   </section>
+   <!-- //====================//About-Section//=====================//-->
+   <section class="about-section container1 flex" id="About">
+<div class="about-left">
+<img src="./constant/assets/logo1.jpg" alt="About-img">
+</div>
+<div class="about-right">
+<h4>About Us</h4>
+<h2>We speak the food<br>language hygienically</h2>
+<p>Savor the taste of trust! Our platform bridges the gap between foodies and top-notch vendors, prioritizing impeccable hygiene standards for a delightful, worry-free culinary journey.</p>
 
-<footer>
-    <div class="footer">
-        <div class="contact-image">
-            <img src="constant/assets/contact.jpg" alt="">
+<a href="#" class="btn">Learn More</a>
+
+</div>
+   </section>
+   <!-- //====================//Menu-Section//=====================//-->
+  <section class="menu-section container1" id="Menu">
+  <div class="heading">
+    <h4>Food Menu</h4>
+    <h2>Fresh taste and great price</h2>
+  </div>
+  <div class="box-container flex">
+        
+  <div class="box-container flex">
+    <div class="box">
+        <div class="box-img">
+            <img src="./constant/assets/pounded-yam.jpeg" alt="">
         </div>
-        <div class="contact-text">
-            <h1>Contact Us:</h1>
-            <p>If you are interested in getting your brand publicised through this platform</p>
-            <div class="contact-links">
-                <a href="https://www.facebook.com/owoicho.joy.526"><img src="constant/assets/facebook.png" alt=""></a>
-                <a href="https://www.linkedin.com/in/thompson-solomon-87283a232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="constant/assets/linkedin.png" alt=""></a>
-                <a href="https://wa.me//+2347065130401"><img src="constant/assets/whatsapp.png" alt=""></a>
-                <a href="https://www.instagram.com/joyful_splash?igsh=MThxbDV2aHp1cGRoZw=="><img src="constant/assets/instagram.png" alt=""></a>
-                <a href="https://x.com/ThompsonSo86878?t=IMipm14pfvbV3ywhcWOdsA&s=09"><img src="constant/assets/twitter.png" alt=""></a>
-                <a href="https://github.com/thompsonsolomon"><img src="constant/assets/github.png" alt=""></a>
+        <h3>Pounded Yam</h3>
+       <!--  <h4>Tasty Food</h4> -->
+        <span>Tasty Foods</span>
+        
+    </div>
+    <div class="box">
+        <div class="box-img">
+            <img src="./constant/assets/masa.jpeg" alt="">
+        </div>
+        <h3>Weina/Masa</h3>
+        <!-- <h4>Tasty Food</h4> -->
+        <span>Appetizing Snacks</span>
+        
+    </div>
+    <div class="box">
+        <div class="box-img">
+            <img src="./constant/assets/zobo.jpeg" alt="">
+        </div>
+        <h3>Fruity Zobo</h3>
+        <!-- <h4>Tasty Food</h4> -->
+        <span>Refreshing Drinks</span>
+       
+    </div>
+  </div>
+  
+    
+  <div class="box-container flex two">
+    <div class="box">
+        <div class="box-img">
+            <img src="./constant/assets/jollof.jpeg" alt="">
+        </div>
+        <h3>Jollof Rice</h3>
+       <!--  <h4>Tasty Snack</h4> -->
+        <span>Tasty Foods</span>
+        
+    </div>
+    <div class="box">
+        <div class="box-img">
+            <img src="./constant/assets/puff.jpeg" alt="">
+        </div>
+        <h3>Puff Puff</h3>
+        <!-- <h4>Tasty Food</h4> -->
+        <span>Appetizing Snacks</span>
+        
+    </div>
+    <div class="box">
+        <div class="box-img">
+            <img src="./constant/assets/kunu.jpeg" alt="">
+        </div>
+        <h3>Kunu</h3>
+        <!-- <h4>Tasty Food</h4> -->
+        <span>Refreshing Drinks</span>
+       
+    </div>
+  </div>
+  
+    
+  <div class="box-container flex  three ">
+    <div class="box">
+        <div class="box-img">
+            <img src="./constant/assets/amala.jpeg" alt="">
+        </div>
+        <h3>Amala</h3>
+        <!-- <h4>Tasty Food</h4> -->
+        <span>Tasty Foods</span>
+        
+    </div>
+    <div class="box">
+        <div class="box-img">
+            <img src="./constant/assets/chinchin.jpeg" alt="">
+        </div>
+        <h3>Chin Chin</h3>
+        <!-- <h4>Tasty Food</h4> -->
+        <span>Appetizing Snacks</span>
+        
+    </div>
+    <div class="box">
+        <div class="box-img">
+            <img src="./constant/assets/parfait.jpeg" alt="">
+        </div>
+        <h3>Yogurt Parfait</h3>
+        <!-- <h4>Tasty Food</h4> -->
+        <span>Refreshing Drinks</span>
+       
+    </div>
+  </div>
+  
+  <div class="box-container_btn" >
+  
+<a href="#" class="btn">Load More</a>
+</div>
+  </div>
+
+  </section>
+   <!-- //====================//Service-Section//=====================//-->
+   <section class="service-section container1" id="Service">
+    <div class="heading">
+        <h4>Teams</h4>
+        <h2 class="teamIntro">Not only do we serve up delicious food, our team of developers can cook awesome features for your websites </h2>
+      </div>
+      <div class="service-contain">
+        <div class="service-box">
+         <div class="Teamimg">
+         <img src="./images/joy.jpeg" alt="">
+         </div>
+         <h4>Joy</h4>
+         <p>Experienced web developer creating user-friendly websites with expertise in HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="service-box">
+            <div class="img">
+            <img src="./images/timileyin.jpg" alt="">
             </div>
-        </div> <!-- ending of contact-text -->
-    </div> <!-- ending of footer -->
-</footer>
-</nav>
+            <h4>Timileyin</h4>
+            <p>Seasoned web developer delivering intuitive digital solutions with expertise in HTML, CSS, and JavaScript.</p>
+           </div>
+           <div class="service-box">
+            <div class="img">
+            <img src="./images/solomon.jpg" alt="">
+            </div>
+            <h4>Solomon</h4>
+            <p>Full-stack expert specializing in React for intuitive front-end interfaces and Node.js for scalable back-end solutions.</p>
+           </div>
+      </div>
+   </section>
+   <!-- //====================//Cta-Section//=====================//-->
+   <section class="cta-section container1">
+   <div class="cta-heading">
+    <h2>Market your food products on our platform and reach new customers!</h2>
+    <a href="#" class="btn">Let's Talk</a>
+   </div>
+   </section>
+   <!-- //====================//Footer-Section//=====================//-->
+   <footer>
+    <div class="footer-section container1 flex" id="Contact">
+     <div class="footer-links">
+    <h4>Menu Links</h4>
+    <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Menu</a></li>
+    <li><a href="#">Service</a></li>
+    <li><a href="#">Contact</a></li>
+    </ul>
+     </div>
+     <div class="footer-links">
+        <h4>Our Services</h4>
+        <ul>
+        <li><a href="#">Web Design</a></li>
+        <li><a href="#">Web Development</a></li>
+        <li><a href="#">Ui/Ux Designer</a></li>
+        <li><a href="#">Frontend-Developer</a></li>
+        <li><a href="#">Graphic Designer</a></li>
+        </ul>
+         </div>
+         <div class="footer-links">
+            <h4>Information</h4>
+            <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Delivery Information</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+             </div>
+             <div class="footer-links">
+                <h4>Contact Us</h4>
+                <ul class="flex">
+                <li><a href="#"><i class=" social-links fa-brands fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com/joyful_splash?igsh=MThxbDV2aHp1cGRoZw=="><i class=" social-links fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://x.com/ThompsonSo86878?t=IMipm14pfvbV3ywhcWOdsA&s=09"><i class=" social-links fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://wa.me//+2347065130401"><i class=" social-links fa-brands fa-whatsapp"></i></li>
+                </ul>
+                 </div>
+     </div>
+     
+   </footer>
+   <!-- //====================//JavaScript-Section//=====================//-->
+<script src="./app.js"></script>
+</body>
 </html>
