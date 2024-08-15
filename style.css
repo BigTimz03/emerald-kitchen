@@ -127,8 +127,10 @@ header {
     color: orange;
 }
 .logo img {
-    width: 109px;
-    
+    width: 80px;
+    border-radius: 50%;
+    height: 75px;
+    margin-top: 10px;
 }
 .toggle-links i {
     font-size: 32px;
