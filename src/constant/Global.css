@@ -1,0 +1,96 @@
+/* Use this css at the top of all css file to get things running cool 😎 */
+
+@font-face {
+    font-family: Poppins;
+    src: url(./Font/Poppins/Poppins-Medium.ttf);
+  }
+  @font-face {
+    font-family: Rubik;
+    src: url(./Font/Rubik_Doodle_Shadow/RubikDoodleShadow-Regular.ttf);
+  }
+  
+  :root {
+    --padding-inline-section: 20px;
+  }
+  
+  body {
+    background: #1e1c2a;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* ----------------------CUSTOM_SCROLLBAR------------------------------ */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgb(88, 88, 88);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(241, 168, 31);
+    border-radius: 4px;
+  }
+  
+  /* Rest-Section */
+  h1 {
+    font-size: 3rem;
+    color: orange;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: orange;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    color: #fff;
+  }
+  
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Utility-Class */
+  
+  .container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    overflow: hidden;
+  }
+  
+  .container1 {
+    max-width: 1000px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    overflow: hidden;
+  }
+  
+  
