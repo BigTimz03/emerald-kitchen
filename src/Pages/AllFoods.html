@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./logo/burger-logo.png" type="image/x-icon">
+    <!-- CSS-Link -->
+    <link rel="stylesheet" href="../Styles/AllFoods.css">
+    <!-- Google-Font! -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <!-- Font-Awesome! -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>All Foods</title>
+</head>
+
+<body>
+
+
+    <!-- //====================//Nav-bar!//=====================//-->
+    <header>
+        <div class="nav-bar flex container">
+            <a href="#" class="logo">
+                <img src="/logo/foodLogo.png" alt="logoImg" />
+            </a>
+            <nav id="nav-links">
+                <ul class="menu">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Menu">Menu</a></li>
+                    <li><a href="#Service">Teams</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="toggle-links" onclick="toggleButton()" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+        </div>
+    </header>
+    <section class="container">
+
+        <div class="food-details" id="BannaerContainer">
+
+
+        </div>
+        <div class="heading">
+            <h2>Food Menu</h2>
+            <h4>Fresh taste and great price</h4>
+        </div>
+        <div class="AllCardContainer">
+
+            <div class="Allbox-container flex" id="allFoodCard">
+                <div class="box">
+                    <a href="./food-details.html" onclick="HandleRoute(1)">
+                        <div class="box-img">
+                            <img src="../constant/assets/pounded-yam.jpeg" alt="">
+                        </div>
+                        <h3>Pounded Yam</h3>
+                        <!--  <h4>Tasty Food</h4> -->
+                        <span>Tasty Foods</span>
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="./food-details.html" onclick="HandleRoute(1)">
+
+                        <div class="box-img">
+                            <img src="../constant/assets/jollof.jpeg" alt="">
+                        </div>
+                        <h3>Jollof Rice</h3>
+                        <!-- <h4>Tasty Food</h4> -->
+                        <span>Tasty Food</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+        </div>
+
+
+    </section>
+    <!-- //====================//Footer-Section//=====================//-->
+    <footer>
+        <div class="footer-section container flex" id="Contact">
+            <div class="footer-links">
+                <h4>Menu Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Our Services</h4>
+                <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Ui/Ux Designer</a></li>
+                    <li><a href="#">Frontend-Developer</a></li>
+                    <li><a href="#">Graphic Designer</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Contact Us</h4>
+                <ul class="flex">
+                    <li><a href="#"><i class=" social-links fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class=" social-links fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class=" social-links fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class=" social-links fa-brands fa-youtube"></i></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+</body>
+<script src="../Script/app.js"></script>
+<script src="../Script/data.js"></script>
+<script src="../Script/AllFood.js"></script>
+
+</html>
