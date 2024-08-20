@@ -73,9 +73,10 @@ ${
                 </p>
 
                 </div>
-                <div>
+                <div class="nutrient">
                 <table class="table" border="1">
                 <h2 scope="col">Food Nutrition Table</h2>
+        
                         <thead class="thead">
                            <tr>
                           <th scope="row">
@@ -139,6 +140,7 @@ ${d.Amount}
 
 
                         </tbody>
+                    
                     </table>
                 </div>
 

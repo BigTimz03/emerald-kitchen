@@ -129,7 +129,6 @@ header {
 .logo img {
   width: 95px;
   padding: 5px 0 5px 0;
-  border-radius: 50%;
 }
 .toggle-links i {
   font-size: 32px;
@@ -186,20 +185,20 @@ header {
 
 .all-vendor {
   margin: 90px 0 50px 0;
-  overflow-x: scroll;
+  
 }
 
-.all-vendor::-webkit-scrollbar {
-  height: 8px;
+.all-vendor_container::-webkit-scrollbar {
+  height: 1px;
   border-radius: 4px;
 }
 
-.all-vendor::-webkit-scrollbar-track {
+.all-vendor_container::-webkit-scrollbar-track {
   background-color: rgb(88, 88, 88);
   height: 1px;
 }
 
-.all-vendor::-webkit-scrollbar-thumb {
+.all-vendor_container::-webkit-scrollbar-thumb {
   background: rgb(241, 168, 31);
   border-radius: 4px;
 }
@@ -208,6 +207,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: scroll;
 }
 
 .each-vendor {
@@ -340,7 +340,7 @@ header {
 .table {
   border: 1px solid white;
   margin-top: 40px;
-  padding: 10px;
+  overflow: scroll;
 }
 
 .thead th {
@@ -359,4 +359,8 @@ tbody th {
 }
 .History {
   margin-top: 90px;
+}
+
+.nutrient {
+    overflow: scroll;
 }
