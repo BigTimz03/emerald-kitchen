@@ -127,7 +127,6 @@ header {
 .logo img {
   width: 80px;
   height: 80px;
-  border-radius: 50%;
   object-fit: contain;
   object-position: middle;
   /* margin-top: 10px; */
